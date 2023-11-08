@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/748ec778cff342509d0ac9e8e4bc058f");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #161010fe;
+    color: #edeee9;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0b300;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
